@@ -65,7 +65,6 @@ if [ -z "$wan" ]
 		iptables --append FORWARD --in-interface $INTERFACE_NAME -j ACCEPT
 fi
 
-clear
 
 # Adding VPN Users
 echo "Set username:"
